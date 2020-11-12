@@ -22,12 +22,6 @@ import com.github.flickrsample.utils.rx.SchedulerProvider
 
 import io.reactivex.disposables.CompositeDisposable
 
-/**
- * Base Presenter class that abstracts some of the repetitive work of a Presenter
- * Implements the basic functions as described in [BaseContract.Presenter]
- *
- * Created by gk
- */
 
 abstract class BasePresenter<V : BaseContract.View<*>>(
         protected val dataSource: AppRepository,

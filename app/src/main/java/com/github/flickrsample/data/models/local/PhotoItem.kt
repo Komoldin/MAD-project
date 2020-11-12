@@ -18,16 +18,6 @@ package com.github.flickrsample.data.models.local
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
 
-/**
- * Describes the Photo Item data to be modeled for local storage and regular use
- *
- * Note:
- * Uses both the Room specific annotations for Local DB
- * Uses Gson annotations for Json serialization for Network requests
- *
- * Created by gk
- */
-
 @Entity(tableName = "photos")
 data class PhotoItem(
         @field:PrimaryKey

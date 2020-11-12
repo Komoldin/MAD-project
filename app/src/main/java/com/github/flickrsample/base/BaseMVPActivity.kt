@@ -32,12 +32,6 @@ import com.github.flickrsample.di.component.DaggerActivityComponent
 import com.github.flickrsample.di.module.ActivityModule
 import com.github.flickrsample.utils.ext.createProgressDialog
 
-/**
- * Acts a Base Activity class for all other activities which will act as View part of MVP
- * Implements the basic functions as described in [BaseContract.View]
- *
- * Created by gk
- */
 
 abstract class BaseMVPActivity<T> : AppCompatActivity(), BaseContract.View<T> {
 

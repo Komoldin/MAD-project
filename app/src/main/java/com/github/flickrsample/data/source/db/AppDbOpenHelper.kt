@@ -24,11 +24,6 @@ import com.github.flickrsample.di.DatabaseInfo
 import javax.inject.Inject
 import javax.inject.Singleton
 
-/**
- * A DB Helper class to build Room DB
- *
- * Created by gk
- */
 
 @Singleton
 class AppDbOpenHelper @Inject

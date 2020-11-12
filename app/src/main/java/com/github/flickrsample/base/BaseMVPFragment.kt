@@ -29,12 +29,7 @@ import com.github.flickrsample.R
 import com.github.flickrsample.di.component.ActivityComponent
 import com.github.flickrsample.utils.ext.createProgressDialog
 
-/**
- * Acts a Base Fragment class for all other [Fragment] which will act as View part of MVP
- * Implements the basic functions as described in [BaseContract.View]
- *
- * Created by gk
- */
+
 
 abstract class BaseMVPFragment<T> : Fragment(), BaseContract.View<T> {
 

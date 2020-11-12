@@ -15,12 +15,6 @@ import com.github.flickrsample.utils.AppLogger
 
 import javax.inject.Inject
 
-/**
- * Entry place when application start
- * Good place to initialize stuff that has an Application Scope
- *
- * Created by gk
- */
 
 class MainApplication : Application() {
 
