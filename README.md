@@ -25,7 +25,7 @@ A Project to show implementation of gallery for android with endless feed, writt
 
 
 
-![Demo](https://raw.githubusercontent.com/gauravk95/flickr-sample/master/screenshot.jpg)
+![home](https://user-images.githubusercontent.com/45779903/99031425-3db27500-25a1-11eb-9cb6-a4167f04581d.jpg)
 
 ### This project uses:
 * **RxJava 2** - For Reactive Programming
